@@ -260,7 +260,7 @@ const bigProjects = {
       image: require("./assets/images/zingMallLogo.png"),
       projectName: "Zing Mall",
       projectDesc: "A multi-tenant e-commerce platform.",
-      involvement: "From start to UAT",
+      involvement: "Support and development",
       footerLink: [
         {
           name: "Visit Website",
