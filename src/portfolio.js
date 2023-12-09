@@ -23,10 +23,10 @@ const greeting = {
   username: "Jevinson",
   title: "Hi all, I'm Jev",
   subTitle: emoji(
-    "A passionate Web Developer 🚀 having an experience of building Web applications with JavaScript / PHP and some other cool libraries and frameworks."
+    "An enthusiastic web developer with a proven track record of constructing web applications using JavaScript/PHP and various cutting-edge libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1oscCxT7ZB2qijZCrLfKtVi01QFItSkkf/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -55,12 +55,8 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ),
     emoji("⚡ Create back-end features for complex systems"),
-    emoji(
-      "⚡ Integrate third party API services"
-    ),
-    emoji(
-      "⚡ Optimize database operations"
-    )
+    emoji("⚡ Integrate third party API services"),
+    emoji("⚡ Optimize database operations")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -116,13 +112,13 @@ const educationInfo = {
       schoolName: "Bulacan State Univertisy",
       logo: require("./assets/images/bulacanStateUniversity.png"),
       subHeader: "Bachelor of Science in Information Technology",
-      duration: "2014 - 2017",
+      duration: "2014 - 2017"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
-    },
+    }
   ]
 };
 
@@ -235,7 +231,8 @@ const bigProjects = {
     {
       image: require("./assets/images/botbenta.png"),
       projectName: "Bot BEnTA",
-      projectDesc: "Bot Enabled Tindahan Assistant integrates bot chats to your online store for better customer engagement.",
+      projectDesc:
+        "Bot Enabled Tindahan Assistant integrates bot chats to your online store for better customer engagement.",
       involvement: "Support and development",
       footerLink: [
         {
@@ -248,7 +245,8 @@ const bigProjects = {
     {
       image: require("./assets/images/urcUniversalRobina.png"),
       projectName: "URC Bot BEntA",
-      projectDesc: "Online B2B e-commerce site for your local tindahan nationwide.",
+      projectDesc:
+        "Online B2B e-commerce site for your local tindahan nationwide.",
       involvement: "From start to production",
       footerLink: [
         {
@@ -262,7 +260,7 @@ const bigProjects = {
       image: require("./assets/images/zingMallLogo.png"),
       projectName: "Zing Mall",
       projectDesc: "A multi-tenant e-commerce platform.",
-      involvement: "From start to production",
+      involvement: "From start to UAT",
       footerLink: [
         {
           name: "Visit Website",
@@ -274,7 +272,8 @@ const bigProjects = {
     {
       image: require("./assets/images/pandimanLogo.png"),
       projectName: "Pandiman Case Management System",
-      projectDesc: "A case management system that handles claims and records related to Case Handlers workload.",
+      projectDesc:
+        "A case management system that handles claims and records related to Case Handlers workload.",
       involvement: "From start to production",
       footerLink: [
         // {
@@ -282,10 +281,12 @@ const bigProjects = {
         //   url: "http://nextu.se/"
         // }
       ]
-    }, {
+    },
+    {
       image: require("./assets/images/qcebizLogo.png"),
       projectName: "QC BPLD Unified Business Permit Application System",
-      projectDesc: "An online processing system for business permit application.",
+      projectDesc:
+        "An online processing system for business permit application.",
       involvement: "From start to UAT",
       footerLink: [
         {
@@ -293,7 +294,7 @@ const bigProjects = {
           url: "https://quezoncity.gov.ph/program/qc-biz-easy/"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
